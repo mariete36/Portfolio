@@ -1,0 +1,26 @@
+body {
+    background: #802229;
+    padding: 600px;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.photo {
+    display: grid;
+    grid-template-columns: 300px 500px;
+    grid-gap: 1rem;
+    margin-left: 20%;
+}
+
+.picture {
+    grid-column: 1 / 2;
+    border: 10px solid #3c1014;
+    width: 280px;
+}
+
+.descript {
+    grid-column: 2 / 2;
+    background: #3c1014;
+}
